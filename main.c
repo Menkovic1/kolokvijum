@@ -2,15 +2,20 @@
 
 int main() {
 
-    string a, b, c;
+    string godina;
 
-    printf("Unesite ime: ");
-    scanf("%d", &a);
+    printf("Ime i prezime: Nikola Menkovic ");
 
-    printf("Unesite prezime: ");
-    scanf("%d", &b);
+    printf("Indeks: 190/22 ");
+    
+    printf("Koliko imate godina? :")
+    scanf_s("%s",&godina);
+    
+    /*
+     if (godina == prestupna)
+     printf("rodjen si u presupnoj godini")
 
-    printf("broj indeksa: %d\n", c);
-
-    return 0;
-}
+    if (godina == nije prestupna)
+    printf("nisi rodjen u prestupnoj godini")
+ */
+            
